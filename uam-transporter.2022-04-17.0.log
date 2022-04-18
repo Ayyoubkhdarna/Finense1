@@ -1,0 +1,124 @@
+2022-04-18 01:30:42.949 [restartedMain] INFO 
+				com.univers.architecture.transporter.UAMTransporterApplication.logStarting(50) - Starting UAMTransporterApplication on macbook-pro-de-rj.home with PID 12788 (/Users/rj/finense-test/target/classes started by rj in /Users/rj/finense-test)
+2022-04-18 01:30:42.956 [restartedMain] INFO 
+				com.univers.architecture.transporter.UAMTransporterApplication.logStartupProfileInfo(659) - No active profile set, falling back to default profiles: default
+2022-04-18 01:30:43.095 [restartedMain] INFO 
+				org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext.prepareRefresh(590) - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55168147: startup date [Mon Apr 18 01:30:43 CEST 2022]; root of context hierarchy
+2022-04-18 01:30:45.165 [restartedMain] INFO 
+				org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(328) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$16ebb19b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-18 01:30:45.369 [restartedMain] INFO 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2022-04-18 01:30:45.379 [restartedMain] INFO 
+				org.apache.coyote.http11.Http11NioProtocol.log(180) - Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-18 01:30:45.388 [restartedMain] INFO 
+				org.apache.catalina.core.StandardService.log(180) - Starting service [Tomcat]
+2022-04-18 01:30:45.389 [restartedMain] INFO 
+				org.apache.catalina.core.StandardEngine.log(180) - Starting Servlet Engine: Apache Tomcat/8.5.29
+2022-04-18 01:30:45.392 [localhost-startStop-1] INFO 
+				org.apache.catalina.core.AprLifecycleListener.log(180) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/rj/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2022-04-18 01:30:45.438 [localhost-startStop-1] INFO 
+				org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log(180) - Initializing Spring embedded WebApplicationContext
+2022-04-18 01:30:45.438 [localhost-startStop-1] INFO 
+				org.springframework.web.context.ContextLoader.prepareWebApplicationContext(285) - Root WebApplicationContext: initialization completed in 2343 ms
+2022-04-18 01:30:45.544 [localhost-startStop-1] INFO 
+				org.springframework.boot.web.servlet.ServletRegistrationBean.addRegistration(185) - Servlet dispatcherServlet mapped to [/]
+2022-04-18 01:30:45.545 [localhost-startStop-1] INFO 
+				org.springframework.boot.web.servlet.ServletRegistrationBean.addRegistration(185) - Servlet webServlet mapped to [/h2-console/*]
+2022-04-18 01:30:45.547 [localhost-startStop-1] INFO 
+				org.springframework.boot.web.servlet.FilterRegistrationBean.configure(244) - Mapping filter: 'characterEncodingFilter' to: [/*]
+2022-04-18 01:30:45.547 [localhost-startStop-1] INFO 
+				org.springframework.boot.web.servlet.FilterRegistrationBean.configure(244) - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2022-04-18 01:30:45.547 [localhost-startStop-1] INFO 
+				org.springframework.boot.web.servlet.FilterRegistrationBean.configure(244) - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2022-04-18 01:30:45.548 [localhost-startStop-1] INFO 
+				org.springframework.boot.web.servlet.FilterRegistrationBean.configure(244) - Mapping filter: 'requestContextFilter' to: [/*]
+2022-04-18 01:30:45.682 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource.getConnection(110) - HikariPool-1 - Starting...
+2022-04-18 01:30:45.819 [restartedMain] INFO 
+				com.zaxxer.hikari.HikariDataSource.getConnection(123) - HikariPool-1 - Start completed.
+2022-04-18 01:30:45.864 [restartedMain] INFO 
+				org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(361) - Building JPA container EntityManagerFactory for persistence unit 'default'
+2022-04-18 01:30:46.033 [restartedMain] INFO 
+				org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(31) - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-04-18 01:30:46.080 [restartedMain] INFO 
+				org.hibernate.Version.logVersion(45) - HHH000412: Hibernate Core {5.2.16.Final}
+2022-04-18 01:30:46.081 [restartedMain] INFO 
+				org.hibernate.cfg.Environment.<clinit>(213) - HHH000206: hibernate.properties not found
+2022-04-18 01:30:46.111 [restartedMain] INFO 
+				org.hibernate.annotations.common.Version.<clinit>(66) - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-04-18 01:30:46.201 [restartedMain] INFO 
+				org.hibernate.dialect.Dialect.<init>(157) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-04-18 01:30:46.213 [restartedMain] INFO 
+				org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.makeLobCreatorBuilder(63) - HHH000422: Disabling contextual LOB creation as connection was null
+2022-04-18 01:30:46.215 [restartedMain] INFO 
+				org.hibernate.type.BasicTypeRegistry.register(148) - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@44b00bcf
+2022-04-18 01:30:46.534 [restartedMain] INFO 
+				org.hibernate.tool.schema.internal.SchemaCreatorImpl.applyImportSources(489) - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@75916a69'
+2022-04-18 01:30:46.536 [restartedMain] INFO 
+				org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory(415) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-18 01:30:46.795 [restartedMain] INFO 
+				org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler(373) - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-04-18 01:30:46.983 [restartedMain] INFO 
+				org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(574) - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55168147: startup date [Mon Apr 18 01:30:43 CEST 2022]; root of context hierarchy
+2022-04-18 01:30:47.004 [restartedMain] WARN 
+				org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor(235) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-18 01:30:47.033 [restartedMain] INFO 
+				org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register(547) - Mapped "{[/api/sortedtasksexecutions],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.univers.architecture.transporter.model.TaskExecution>> com.univers.architecture.transporter.web.TaskExecutionController.getAllTasksExecutions(java.lang.String[])
+2022-04-18 01:30:47.034 [restartedMain] INFO 
+				org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register(547) - Mapped "{[/api/tasksexecutions/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.univers.architecture.transporter.model.TaskExecution> com.univers.architecture.transporter.web.TaskExecutionController.getTaskExecutionById(long)
+2022-04-18 01:30:47.035 [restartedMain] INFO 
+				org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register(547) - Mapped "{[/api/tasksexecutions],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.univers.architecture.transporter.model.TaskExecution> com.univers.architecture.transporter.web.TaskExecutionController.createTaskExecution(com.univers.architecture.transporter.model.TaskExecution)
+2022-04-18 01:30:47.035 [restartedMain] INFO 
+				org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register(547) - Mapped "{[/api/tasksexecutions/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.univers.architecture.transporter.model.TaskExecution> com.univers.architecture.transporter.web.TaskExecutionController.updateTaskExecution(long,com.univers.architecture.transporter.model.TaskExecution)
+2022-04-18 01:30:47.036 [restartedMain] INFO 
+				org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register(547) - Mapped "{[/api/tasksexecutions/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<org.springframework.http.HttpStatus> com.univers.architecture.transporter.web.TaskExecutionController.deleteTaskExecution(long)
+2022-04-18 01:30:47.036 [restartedMain] INFO 
+				org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register(547) - Mapped "{[/api/tasksexecutions],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<org.springframework.http.HttpStatus> com.univers.architecture.transporter.web.TaskExecutionController.deleteAllTasksExecutions()
+2022-04-18 01:30:47.036 [restartedMain] INFO 
+				org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register(547) - Mapped "{[/api/tasksexecutions],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> com.univers.architecture.transporter.web.TaskExecutionController.getAllTasksExecutionsPage(java.lang.String,int,int,java.lang.String[])
+2022-04-18 01:30:47.039 [restartedMain] INFO 
+				org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register(547) - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2022-04-18 01:30:47.039 [restartedMain] INFO 
+				org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register(547) - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2022-04-18 01:30:47.063 [restartedMain] INFO 
+				org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler(373) - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-04-18 01:30:47.063 [restartedMain] INFO 
+				org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler(373) - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-04-18 01:30:47.237 [restartedMain] INFO 
+				org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(57) - LiveReload server is running on port 35729
+2022-04-18 01:30:47.269 [restartedMain] INFO 
+				org.springframework.jmx.export.annotation.AnnotationMBeanExporter.afterSingletonsInstantiated(433) - Registering beans for JMX exposure on startup
+2022-04-18 01:30:47.270 [restartedMain] INFO 
+				org.springframework.jmx.export.annotation.AnnotationMBeanExporter.autodetect(895) - Bean with name 'dataSource' has been autodetected for JMX exposure
+2022-04-18 01:30:47.276 [restartedMain] INFO 
+				org.springframework.jmx.export.annotation.AnnotationMBeanExporter.registerBeanInstance(668) - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2022-04-18 01:30:47.286 [restartedMain] INFO 
+				org.apache.coyote.http11.Http11NioProtocol.log(180) - Starting ProtocolHandler ["http-nio-8080"]
+2022-04-18 01:30:47.298 [restartedMain] INFO 
+				org.apache.tomcat.util.net.NioSelectorPool.log(180) - Using a shared selector for servlet write/read
+2022-04-18 01:30:47.308 [restartedMain] INFO 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(206) - Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-18 01:30:47.313 [restartedMain] INFO 
+				com.univers.architecture.transporter.UAMTransporterApplication.logStarted(59) - Started UAMTransporterApplication in 4.819 seconds (JVM running for 6.083)
+2022-04-18 01:41:58.718 [http-nio-8080-exec-2] INFO 
+				org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log(180) - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2022-04-18 01:41:58.719 [http-nio-8080-exec-2] INFO 
+				org.springframework.web.servlet.DispatcherServlet.initServletBean(494) - FrameworkServlet 'dispatcherServlet': initialization started
+2022-04-18 01:41:58.740 [http-nio-8080-exec-2] INFO 
+				org.springframework.web.servlet.DispatcherServlet.initServletBean(509) - FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2022-04-18 01:41:58.821 [http-nio-8080-exec-2] INFO 
+				org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService(47) - HHH000397: Using ASTQueryTranslatorFactory
+2022-04-18 02:22:53.453 [Thread-19] INFO 
+				org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext.doClose(993) - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55168147: startup date [Mon Apr 18 01:30:43 CEST 2022]; root of context hierarchy
+2022-04-18 02:22:53.463 [Thread-19] INFO 
+				org.springframework.jmx.export.annotation.AnnotationMBeanExporter.destroy(451) - Unregistering JMX-exposed beans on shutdown
+2022-04-18 02:22:53.464 [Thread-19] INFO 
+				org.springframework.jmx.export.annotation.AnnotationMBeanExporter.unregisterBeans(183) - Unregistering JMX-exposed beans
+2022-04-18 02:22:53.465 [Thread-19] INFO 
+				org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy(597) - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-18 02:22:53.468 [Thread-19] INFO 
+				com.zaxxer.hikari.HikariDataSource.close(381) - HikariPool-1 - Shutdown initiated...
+2022-04-18 02:22:53.473 [Thread-19] INFO 
+				com.zaxxer.hikari.HikariDataSource.close(383) - HikariPool-1 - Shutdown completed.
